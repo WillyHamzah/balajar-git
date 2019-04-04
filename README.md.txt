@@ -24,9 +24,17 @@
 	`git reset`
 - Menghapus perubahan di staging dan working folder
 	`git reset --hard`
--Melihat daftar branch
+- Melihat daftar branch
 	'git branch --all'
--Membuat branch baru
+- Membuat branch baru
 	'git branch nama-branch'
--Pindah ke branch
+- Pindah ke branch lainnya
 	'git checkout nama-branch'
+- Marge branch 
+	'git checkout master'
+	'git marge nama-branch'
+- Menghapus branch tertentu di lokal
+	'git branch -d nama-branceh
+- Menghapus branch tertentu di remote
+	'git push nama-remote :nama-branch
+- Add bug
